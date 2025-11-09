@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dabc2df95883a7047bfb9d875d9c8d50, type: 3}
+  m_Name: DefenceData
+  m_EditorClassIdentifier: Assembly-CSharp::TroopData
+  TroopName: 
+  MaxHealth: 0
+  BaseDamage: 0
+  PrepareAction: {fileID: 11400000, guid: 807d92519a9f1c145bdc7f0228240c26, type: 2}
+  PrepareDuration: 3
+  AbilityAction: {fileID: 11400000, guid: 712e1daa94289d445a1eba8fe10c0a19, type: 2}
+  AbilityDuration: 1
+  CoreAction: {fileID: 11400000, guid: 80563a3ab25dcfd45837252e9c621880, type: 2}
+  CoreDuration: 2
+  DeathAction: {fileID: 11400000, guid: da62b6b9736a40744a79178dbea9120c, type: 2}
+  DeathDuration: 1

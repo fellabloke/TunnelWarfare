@@ -50,47 +50,47 @@
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\IExtrudeShape.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\EmbeddedSplineDataType.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineAnimate.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\MathUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineInstantiate.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\Interpolators.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineJobs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\BezierKnot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\NativeSpline.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineShaderUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\Spline.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineMath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplinePath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\BezierTangent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineFactory.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineSlice.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\BezierCurve.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineModificationData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\BezierMode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\InterpolatorsUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineExtrude.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\ISplineProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\RamerDouglasPeucker.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineAnimate.cs" />
+    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\MathUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineMesh.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineDataHandleAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineKnotIndex.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\BezierKnot.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\ArrayUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\NativeSpline.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineShaderUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineContainer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\Spline.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\DataPoint.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineMath.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplinePath.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\BezierTangent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineData.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\ISpline.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineSlice.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineDataDictionary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\BezierCurve.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\EmbeddedSplineData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineModificationData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\BezierMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\PropertyAttributes.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\KnotLinkCollection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\InterpolatorsUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineExtrude.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\ISplineContainer.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\CurveUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineType.cs" />
     <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\SplineRange.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\ISplineProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\RamerDouglasPeucker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.splines@1cb7d86fc7ff\Runtime\Unity.Splines.asmdef" />
@@ -596,6 +596,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library\PackageCache\com.unity.services.wire@2d36cce58c62\Plugins\websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -622,6 +626,10 @@
     </Reference>
     <Reference Include="System.IO.Hashing">
       <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">

@@ -48,121 +48,121 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxImporter.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxExporter.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxNull.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxTimeSpan.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxIOBase.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyDouble3.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxFileTexture.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementArrayTemplateFbxSurfaceMaterial.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEBlendMode.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDocument.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxNodeAttribute.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyString.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxNodeAttribute.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementArrayTemplateFbxVector4.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurveKey.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEntryView.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxIOPluginRegistry.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEProjectionType.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxIOSettings.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementTemplateFbxColor.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxEmitter.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyFlags.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxGeometryBase.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyFloat.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxMatrix.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDeformer.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerContainer.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementTemplateFbxVector2.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxCamera.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDataType.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDocumentInfo.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEGateFit.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\EFbxType.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConstraintAim.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimLayer.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxCollection.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSurfacePhong.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConstraintRotation.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyELightType.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAxisSystem.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSurfaceMaterial.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxStatus.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPose.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSharpProgressCallback.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxShape.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurveFilterUnroll.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurveBase.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxBlendShapeChannel.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyBool.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementNormal.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxTexture.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxImplementation.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSurfaceLambert.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSkeleton.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyInt.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyNullELook.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxNode.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSkin.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxNurbsCurve.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxScene.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxImporter.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxExporter.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyDouble3.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxFileTexture.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxProperty.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConstraint.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLight.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSemanticEntryView.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementArrayTemplateFbxColor.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLimits.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxIOSettings.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxEntryView.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementTemplateFbxColor.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxEmitter.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyMarkerELook.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyFlags.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConstraintPosition.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxObject.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxGeometryBase.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementArrayTemplateInt.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxCluster.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxMesh.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyFloat.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxMatrix.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDeformer.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerContainer.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxBindingTableBase.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementTemplateFbxVector2.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxCamera.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDataType.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDocumentInfo.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEGateFit.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxEuler.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\EFbxType.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConstraintParent.cs" />
+    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurveDef.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxManager.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementArrayTemplateFbxVector2.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConstraintAim.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimLayer.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementUV.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurveDef.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxCollection.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\EFbxMemoryClearMode.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSurfacePhong.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElement.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConstraintRotation.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyELightType.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAxisSystem.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSurfaceMaterial.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxStatus.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSystemUnit.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPose.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAMatrix.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSharpProgressCallback.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimStack.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementArray.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConstraintScale.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEAreaLightShape.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementBinormal.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxShape.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementTemplateFbxVector4.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEDecayType.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxIOFileHeaderInfo.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurveFilterUnroll.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurveBase.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementTangent.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxBlendShapeChannel.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementTemplateFbxSurfaceMaterial.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDouble4x4.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\NativeMethods.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyBool.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxMarker.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEInheritType.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxQuaternion.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\Globals.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxTransform.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementNormal.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxDoubleTemplates.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementVertexColor.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxBindingTable.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxTexture.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxImplementation.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSurfaceLambert.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSkeleton.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyInt.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyEWrapMode.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSubDeformer.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxTime.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxGlobalSettings.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyNullELook.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxBindingTableEntry.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxBlendShape.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxGeometry.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxNode.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurve.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxPropertyDouble.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayer.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxSkin.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxConnection.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxNurbsCurve.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxLayerElementMaterial.cs" />
-    <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxScene.cs" />
     <Compile Include="Library\PackageCache\com.autodesk.fbx@5797ff6b31c7\Runtime\Scripts\FbxAnimCurveNode.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -669,6 +669,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library\PackageCache\com.unity.services.wire@2d36cce58c62\Plugins\websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -695,6 +699,10 @@
     </Reference>
     <Reference Include="System.IO.Hashing">
       <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">

@@ -48,24 +48,24 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ConvertToPrefabSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\CustomExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ManualUpdateEditorWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\InstallIntegration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ExportSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\FbxExporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\FbxPropertyChannelPair.cs" />
+    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ConvertToPrefabSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ExportModelEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\CameraVisitor.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\Sources\Recorders\FbxRecorder\FbxRecorderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ConvertToNestedPrefab.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\Sources\Recorders\FbxRecorder\FbxRecorder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ManualUpdateEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\FbxExportTimelineAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\FbxRotationCurve.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ConvertToPrefabEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\IExportData.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\Sources\Recorders\FbxRecorder\FbxRecorderSettingsEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\InstallIntegration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ExportSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\ExportModelSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\FbxExporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\FbxPropertyChannelPair.cs" />
     <Compile Include="Library\PackageCache\com.unity.formats.fbx@86d1698ebb13\Editor\FbxExportPresetSelectorReceiver.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -580,6 +580,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.2.7f2\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library\PackageCache\com.unity.services.wire@2d36cce58c62\Plugins\websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -606,6 +610,10 @@
     </Reference>
     <Reference Include="System.IO.Hashing">
       <HintPath>Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@74deb55db2a0\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -1124,8 +1132,8 @@
     <ProjectReference Include="Autodesk.Fbx.csproj" />
     <ProjectReference Include="UnityEditor.UI.csproj" />
     <ProjectReference Include="UnityEngine.UI.csproj" />
-    <ProjectReference Include="UnityEditor.TestRunner.csproj" />
     <ProjectReference Include="UnityEngine.TestRunner.csproj" />
+    <ProjectReference Include="UnityEditor.TestRunner.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
