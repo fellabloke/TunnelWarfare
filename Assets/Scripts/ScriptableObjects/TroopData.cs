@@ -7,6 +7,9 @@ public class TroopData : ScriptableObject
     public string TroopName;
     public int MaxHealth;
     public int BaseDamage;
+    public GameObject thisObjectPlaceholder;
+    public GameObject thisObject;
+    public GameObject thisObjectCard;
     
     [Header("Phase Actions & Durations")]
     public SequenceStep PrepareAction;

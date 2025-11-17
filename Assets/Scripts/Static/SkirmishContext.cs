@@ -1,17 +1,22 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class SkirmishContext
 {
-    public bool isRoundOver = false;
+    public SkirmishOverseer Manager { get; private set; }
 
+    public SkirmishContext(SkirmishOverseer manager)
+    {
+        this.Manager = manager;
+    }
+    
+    public bool IsBattleOver = false;
     private Dictionary<string, object> _flags = new Dictionary<string, object>();
-
 
     public void SetFlag(string key, object value)
     {
         _flags[key] = value;
-        Debug.Log($"CONTEXT_SET: {key} = {value}");
+        Debug.Log($"Context: {key} = {value}");
     }
 
     public bool GetFlag(string key)
@@ -35,7 +40,7 @@ public class SkirmishContext
                 return (T)value;
             }
         }
-        return default(T); 
+        return default(T);
     }
     
     public void RemoveFlag(string key)
